@@ -13,10 +13,10 @@
 
 <a-scene embedded arjs>
   <a-assets>
-    <a-asset-item id="riya" src="models/sss.gltf"></a-asset-item>
+    <a-asset-item id="model-gltf" src="models/sss.gltf"></a-asset-item>
   </a-assets>
   <!-- use your gltf model -->
-  <a-entity gltf-model="#riya" position="1 1 -1" scale="0.2 0.2 0.2"></a-entity>
+  <a-entity gltf-model="gltf:model/sss.gltf" position="1 1 -1" scale="0.2 0.2 0.2"></a-entity>
 <a-marker-camera preset='hiro'></a-marker-camera>
 </a-scene>
 </body>
